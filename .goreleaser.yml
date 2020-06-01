@@ -52,6 +52,7 @@ archives:
 
 dockers:
   -
+    dockerfile: Dockerfile
     goos: linux
     goarch: amd64
     goarm: ''
@@ -60,6 +61,7 @@ dockers:
       - "o1egl/releasertest:{{ .Tag }}"
       - "o1egl/releasertest:v{{ .Major }}"
   -
+    dockerfile: Dockerfile
     goos: linux
     goarch: arm
     goarm: '5'
