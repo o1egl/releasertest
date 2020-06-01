@@ -63,7 +63,8 @@ dockers:
       - "o1egl/releasertest:v{{ .Major }}"
   -
     dockerfile: Dockerfile
-    binary: releasertest
+    binaries:
+      - releasertest
     goos: linux
     goarch: arm
     goarm: '5'
