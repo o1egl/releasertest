@@ -53,7 +53,8 @@ archives:
 dockers:
   -
     dockerfile: Dockerfile
-    binary: releasertest
+    binaries:
+      - releasertest
     goos: linux
     goarch: amd64
     goarm: ''
